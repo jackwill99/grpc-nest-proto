@@ -47,6 +47,7 @@ message FindOneResponse {
 
 message DecreaseStockRequest {
   string id = 1;
+  string orderId = 2;
 }
 
 message DecreaseStockResponse {
